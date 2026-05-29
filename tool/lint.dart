@@ -89,7 +89,8 @@ Future<bool> _run(String command, _Package pkg) async {
 }
 
 List<_Package> _findPackages() {
-  final shared = Directory('packages/shared');
+  final root = Directory.current.parent.parent.parent.path;
+  final shared = Directory('$root/packages/shared');
   if (!shared.existsSync()) return [];
 
   return shared
