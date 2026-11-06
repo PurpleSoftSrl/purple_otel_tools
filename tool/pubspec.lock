@@ -13,10 +13,10 @@ packages:
     dependency: "direct main"
     description:
       name: git
-      sha256: "46556ed28a3b25b1be9bcde0291d84a57b206a899f8b37bf7ab335d8fb640e84"
+      sha256: e569a692291d6632db69ef20165fb420b655d4a847c30fb575277a78ef0ad8ab
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.2"
+    version: "2.5.0"
   path:
     dependency: transitive
     description:
@@ -53,9 +53,9 @@ packages:
     dependency: "direct main"
     description:
       name: yaml
-      sha256: b9da305ac7c39faa3f030eccd175340f968459dae4af175130b3fc47e40d76ce
+      sha256: f67cdd8e07d3c6329146aaef1ba043542b3134c12489f553ca9a7435d1068aea
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.3"
+    version: "3.1.4"
 sdks:
-  dart: ">=3.4.0 <4.0.0"
+  dart: ">=3.12.0 <4.0.0"
